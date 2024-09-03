@@ -3,7 +3,6 @@ import useGames, { Platform } from '../hookers/useGames';
 import GameCard from './GameCard';
 import GameCardSkeleton from './GameCardSkeleton';
 import GameCardContainer from './GameCardContainer';
-import { Genre } from '../hookers/useGenres';
 import { GameQuery } from '../App';
 
 interface Props {
