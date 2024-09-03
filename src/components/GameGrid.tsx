@@ -7,7 +7,6 @@ import { Genre } from '../hookers/useGenres';
 import { GameQuery } from '../App';
 
 interface Props {
-
     gameQuery: GameQuery
 }
 
