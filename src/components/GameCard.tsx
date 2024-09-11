@@ -1,4 +1,4 @@
-import { Card, CardBody, Heading, HStack, Image } from '@chakra-ui/react';
+import { Button, Card, CardBody, Heading, HStack, Image } from '@chakra-ui/react';
 import { Game } from '../hookers/useGames';
 import PlatformIconList from './PlatformIconList';
 import CriticScore from './CriticScore';
@@ -25,6 +25,7 @@ const GameCard = ({game} : Props) => {
             <Emoji rating={game.rating_top}/>
         </CardBody>
     </Card>
+
   )
 }
 
