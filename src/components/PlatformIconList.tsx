@@ -3,8 +3,8 @@ import { SiNintendo } from "react-icons/si"
 import { MdPhoneIphone } from "react-icons/md"
 import { BsGlobe } from "react-icons/bs"
 import { HStack, Icon, Text } from "@chakra-ui/react"
-import { Platform } from "../hookers/useGames"
 import { IconType } from "react-icons/lib"
+import { Platform } from "../hookers/usePlatforms"
 
 interface Props {
     platforms: Platform[]
