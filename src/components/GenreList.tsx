@@ -4,7 +4,7 @@ import getCroppedImageUrl from '../hookers/image-url'
 
 interface Props {
     onSelectGenre: (id: number) => void;
-    selectedGenreId: number | null;
+    selectedGenreId?: number;
 }
 
 
