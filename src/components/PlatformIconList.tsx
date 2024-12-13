@@ -4,7 +4,7 @@ import { MdPhoneIphone } from "react-icons/md"
 import { BsGlobe } from "react-icons/bs"
 import { HStack, Icon, Text } from "@chakra-ui/react"
 import { IconType } from "react-icons/lib"
-import { Platform } from "../hookers/usePlatforms"
+import { Platform } from "../entities/Platform"
 
 interface Props {
     platforms: Platform[]
