@@ -1,5 +1,4 @@
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
-import { GameQuery } from "../App";
 import APIClient, { FetchResponse } from "../services/api-client";
 import { Platform } from "./usePlatforms";
 import useGameQueryStore from "../reducers/store";
@@ -7,6 +6,8 @@ import useGameQueryStore from "../reducers/store";
 export interface Game {
   id: number;
   name: string;
+  slug: string;
+  description_raw: string;
   background_image: string;
   parent_platforms: { platform: Platform }[];
   metacritic: number;
