@@ -4,7 +4,7 @@ import { Box, Heading, SimpleGrid, Spinner, Text } from '@chakra-ui/react'
 import ExpandableText from '../components/ExpandableText'
 import GameAttributes from '../components/GameAttributes'
 import GameTrailer from '../components/GameTrailer'
-import GameScreenShots from '../components/GameScreenShots'
+import GameScreenshots from '../components/GameScreenshots'
 
 const GameDetailPage = () => {
   const {slug} = useParams()
@@ -24,7 +24,7 @@ const GameDetailPage = () => {
       <Box>
 
       <GameTrailer gameId={game.id} />
-      <GameScreenShots gameId={game.id} />
+      <GameScreenshots gameId={game.id} />
 
       </Box>
 
